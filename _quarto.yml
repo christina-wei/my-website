@@ -1,0 +1,22 @@
+project:
+  type: website
+
+website:
+  title: "Christina Wei"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: about.qmd
+        text: About
+      - href: "https://github.com/christina-wei/christina-wei.github.io/blob/master/files/Christina%20Wei%20CV%202023%20-%20Academia.pdf??raw=true"
+        text: CV
+        
+format:
+  html:
+    theme: sketchy
+    css: styles.css
+    toc: true
+
+editor: visual
+
